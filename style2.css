@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.name{
+    border: 5px;
+    border-radius: 5px;
+}
+.iEmail{
+    border: 5px;
+    border-radius: 5px;
+}
+
+.pNome, .pEmail{
+    text-align: center;
+}
+

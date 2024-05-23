@@ -1,0 +1,32 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.p1{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+h1{
+    font-size: 30pt;
+    
+}

@@ -1,6 +1,5 @@
 .container{
-    width: 100vw;
-    height: 100vh;
+    height: 600px;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -9,9 +8,10 @@
 }
 
 .box{
+    margin: auto;
+    text-align: center;
     width: 300px;
     height: 300px;
-    text-align: center;
     color: aliceblue;
     font-family: sans-serif;
 }

@@ -12,28 +12,33 @@
     <hr width="1000">
     <div class="container">
         <div class="box">
-            <form>
-                <p class="pNome">
-                    <label for="nome">Nome</label> <br>
+            <form id="cadForm">
+                <p class="pRegistro">
+                    <label for="nome" class="labelNome">Nome</label> <br>
                     <input type="text" name="nome" class="name">
+                    <label for="email" class="labelEmail">Email</label> <br>
+                    <input type="email" name="email" id="email">
+                    <label for="cpf" class="labelCpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf">
+                    <label for="cel" class="labelTel">Telefone</label>
+                    <input type="tel" name="tel" id="tel">
                 </p>
-                <p class="pEmail">
-                    <label for="email">Email</label> <br>
-                    <input type="email" name="email" class="iEmail">
+                <p>Você é um desenvolvedor: <br>
+                    <input type="radio" name="option" value="front">
+                    <label>Front-End</label> <br>
+                    <input type="radio" name="option" value="back">
+                    <label>Back-End</label> <br>
+                    <input type="radio" name="option" value="full">
+                    <label>Fullstack</label>
                 </p>
-                    <p>Você é um desenvolvedor: <br>
-                        <input type="radio" name="option" value="front">
-                        <label>Front-End</label> <br>
-                        <input type="radio" name="option" value="back">
-                        <label>Back-End</label> <br>
-                        <input type="radio" name="option" value="full">
-                        <label>Fullstack</label>
-                </p>
+                <input type="submit" id="send" value="Enviar">
             </form>
-            <a href="index3.html"><input type="submit" class="send" value="Enviar"></a>
             <br>
-            <p>&copy; Copyright by <a href="https://github.com/pedrorgc" target="_blank">Pedro Ricarth Gonçalves Cabral</a></p>
+            <p>&copy; Copyright by <a href="https://github.com/pedrorgc" target="_blank">Pedro Ricarth</a></p>
         </div>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -25,20 +25,24 @@ h1{
 p{
     text-align: center;
 }
-.name{
-    border: 5px;
-    border-radius: 5px;
+
+.labelNome, .labelEmail, .labelCpf, .labelTel{
+    float: left;
+    padding: 10px;
 }
-.iEmail{
+
+.name, #email, #cpf, #tel{
+    width: 400px;
+    height: 20px;
     border: 5px;
     border-radius: 5px;
 }
 
-.pNome, .pEmail{
-    text-align: center;
+.pRegistro{
+    float: left;
 }
 
-.send{
+#send{
     background-color: blueviolet;
     border-radius: 10px;
     border: none;
@@ -47,11 +51,12 @@ p{
     font-family: sans-serif;
     width: 70px;
     height: 30px;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: transform 200ms ease-in-out;
 }
 
-.send:hover{
+#send:hover{
     transform: scale(1.05);
 }
